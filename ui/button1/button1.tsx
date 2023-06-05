@@ -6,9 +6,5 @@ export type Button1Props = {
 };
 
 export function Button1({ children }: Button1Props) {
-  return (
-    <p className="text-gray-300">
-      {children}
-    </p>
-  );
+  return <p className="text-gray-300">{children}</p>;
 }

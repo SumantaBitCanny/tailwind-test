@@ -16,13 +16,11 @@ import { JestTester, JestTask } from '@teambit/defender.jest-tester';
 import { PrettierFormatter } from '@teambit/defender.prettier-formatter';
 import { Tester } from '@teambit/tester';
 import { Preview } from '@teambit/preview';
+import { tailwindTransformer } from '@learnbit/styling.transformers.tailwind';
 import hostDependencies from './preview/host-dependencies';
 // import { webpackTransformer } from './config/webpack.config';
-import { tailwindTransformer } from '@learnbit/styling.transformers.tailwind';
-
 
 export class TailwindEnv extends ReactEnv {
-
   /* a shorthand name for the env */
   name = 'tailwind-env';
 
@@ -85,8 +83,8 @@ export class TailwindEnv extends ReactEnv {
       hostDependencies,
       transformers: [
         tailwindTransformer({
-         config: require.resolve('./tailwind.config.js'),
-        })
+          config: require.resolve('./tailwind.config.js'),
+        }),
       ],
       docsTemplate: require.resolve('./preview/docs'),
     });
@@ -116,4 +114,3 @@ export class TailwindEnv extends ReactEnv {
 }
 
 export default new TailwindEnv();
-    

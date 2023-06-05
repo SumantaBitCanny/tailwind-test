@@ -9,6 +9,9 @@ importers:
       '@babel/runtime':
         specifier: 7.20.0
         version: registry.npmjs.org/@babel/runtime@7.20.0
+      '@learnbit-react/react-17.docs-template':
+        specifier: ^0.0.5
+        version: 0.0.5(@testing-library/react@12.1.5)(@types/react@17.0.60)(graphql@14.7.0)(react-dom@17.0.2)(react@17.0.2)
       '@learnbit-react/react-17.mounter':
         specifier: ^0.0.4
         version: 0.0.4(react-dom@17.0.2)(react@17.0.2)
@@ -125,6 +128,29 @@ importers:
   ui/button1: {}
 
 packages:
+
+  /@learnbit-react/react-17.docs-template@0.0.5(@testing-library/react@12.1.5)(@types/react@17.0.60)(graphql@14.7.0)(react-dom@17.0.2)(react@17.0.2):
+    resolution: {integrity: sha1-HjmRzv5YRdQzvUBrJRhMsv6j7kg=, tarball: https://node.bit.cloud/@learnbit-react/react-17.docs-template/-/@learnbit-react-react-17.docs-template-0.0.5.tgz}
+    peerDependencies:
+      react: '*'
+      react-dom: '*'
+    peerDependenciesMeta:
+      react:
+        optional: true
+      react-dom:
+        optional: true
+    dependencies:
+      '@teambit/react.ui.docs-app': registry.npmjs.org/@teambit/react.ui.docs-app@0.0.200(@testing-library/react@12.1.5)(@types/react@17.0.60)(graphql@14.7.0)(react-dom@18.2.0)(react@18.2.0)(typescript@4.9.3)
+      core-js: registry.npmjs.org/core-js@3.30.2
+      react: registry.npmjs.org/react@17.0.2
+      react-dom: registry.npmjs.org/react-dom@17.0.2(react@17.0.2)
+    transitivePeerDependencies:
+      - '@testing-library/react'
+      - '@types/react'
+      - encoding
+      - graphql
+      - typescript
+    dev: false
 
   /@learnbit-react/react-17.mounter@0.0.4(react-dom@17.0.2)(react@17.0.2):
     resolution: {integrity: sha1-qD5hSL6iWYEM4IbdWCl0mrfPYrA=, tarball: https://node.bit.cloud/@learnbit-react/react-17.mounter/-/@learnbit-react-react-17.mounter-0.0.4.tgz}

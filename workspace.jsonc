@@ -39,6 +39,7 @@
     "packageManager": "teambit.dependencies/pnpm",
     "policy": {
       "dependencies": {
+        "@learnbit-react/react-17.docs-template": "^0.0.5",
         "@learnbit-react/react-17.mounter": "^0.0.4",
         "@learnbit-react/tailwind.tailwind-config": "^0.0.6",
         "@learnbit/styling.transformers.tailwind": "^0.0.1",

@@ -11,13 +11,13 @@
 {
     "envs/tailwind-env": {
         "scope": "rently-one.tailwind-pocs",
-        "version": "0.0.1",
+        "version": "0.0.4",
         "mainFile": "index.ts",
         "rootDir": "envs/tailwind-env"
     },
     "ui/button1": {
         "scope": "rently-one.tailwind-pocs",
-        "version": "0.0.1",
+        "version": "0.0.4",
         "mainFile": "index.ts",
         "rootDir": "ui/button1"
     },

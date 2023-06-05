@@ -2,7 +2,6 @@ import React from 'react';
 import { createMounter } from '@learnbit-react/react-17.mounter';
 import '@learnbit-react/tailwind.tailwind-config/dist/globals.tailwind.css';
 
-
 /**
  * provide your component compositions (preview) with the context they need to run.
  * for example, a router, a theme, a data provider, etc.
