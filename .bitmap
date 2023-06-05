@@ -10,27 +10,16 @@
 
 {
     "envs/tailwind-env": {
-        "scope": "",
-        "version": "",
+        "scope": "rently-one.tailwind-pocs",
+        "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "envs/tailwind-env",
-        "config": {
-            "teambit.envs/envs": {
-                "env": "teambit.envs/env"
-            }
-        }
+        "rootDir": "envs/tailwind-env"
     },
     "ui/button1": {
-        "scope": "",
-        "version": "",
+        "scope": "rently-one.tailwind-pocs",
+        "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "ui/button1",
-        "config": {
-            "rently-one.tailwind-pocs/envs/tailwind-env": {},
-            "teambit.envs/envs": {
-                "env": "rently-one.tailwind-pocs/envs/tailwind-env"
-            }
-        }
+        "rootDir": "ui/button1"
     },
     "$schema-version": "15.0.0"
 }

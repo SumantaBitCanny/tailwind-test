@@ -8,8 +8,8 @@ import { DocsApp } from '@teambit/react.ui.docs-app';
  */
 export type DocsProvider = ComponentType<{ children: ReactNode }>;
 
-export function createTailwindTemplate(Provider: DocsProvider = React.Fragment) {
-  const TailwindTemplate = ({
+export function createDocsTemplate(Provider: DocsProvider = React.Fragment) {
+  const DocsTemplate = ({
     componentId,
     docs,
     compositions,
@@ -30,6 +30,6 @@ export function createTailwindTemplate(Provider: DocsProvider = React.Fragment) 
       rootElm
     );
   };
-  TailwindTemplate.apiObject = true;
-  return TailwindTemplate;
+  DocsTemplate.apiObject = true;
+  return DocsTemplate;
 }

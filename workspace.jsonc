@@ -51,7 +51,7 @@
         "@teambit/preview.react-preview": "^0.0.35",
         "@teambit/react.mounter": "^0.0.10",
         "@teambit/react.react-env": "^0.0.66",
-        "@teambit/react.ui.docs-app": "0.0.200",
+        "@teambit/react.ui.docs-app": "0.0.207",
         "@teambit/typescript.typescript-compiler": "^0.0.9",
         "@typescript-eslint/eslint-plugin": "5.35.1",
         "eslint-import-resolver-node": "0.3.6",
