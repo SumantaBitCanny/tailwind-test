@@ -15,11 +15,23 @@
         "mainFile": "index.ts",
         "rootDir": "envs/tailwind-env"
     },
+    "ui/button": {
+        "scope": "rently-one.tailwind-pocs",
+        "version": "0.0.2",
+        "mainFile": "index.ts",
+        "rootDir": "ui/button"
+    },
     "ui/button1": {
         "scope": "rently-one.tailwind-pocs",
-        "version": "0.0.4",
+        "version": "0.0.5",
         "mainFile": "index.ts",
         "rootDir": "ui/button1"
+    },
+    "ui/card": {
+        "scope": "rently-one.tailwind-pocs",
+        "version": "0.0.1",
+        "mainFile": "index.ts",
+        "rootDir": "ui/card"
     },
     "$schema-version": "15.0.0"
 }
