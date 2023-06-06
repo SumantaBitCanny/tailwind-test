@@ -11,25 +11,25 @@
 {
     "envs/tailwind-env": {
         "scope": "rently-one.tailwind-pocs",
-        "version": "0.0.4",
+        "version": "0.0.5",
         "mainFile": "index.ts",
         "rootDir": "envs/tailwind-env"
     },
     "ui/button": {
         "scope": "rently-one.tailwind-pocs",
-        "version": "0.0.2",
+        "version": "0.0.3",
         "mainFile": "index.ts",
         "rootDir": "ui/button"
     },
     "ui/button1": {
         "scope": "rently-one.tailwind-pocs",
-        "version": "0.0.5",
+        "version": "0.0.6",
         "mainFile": "index.ts",
         "rootDir": "ui/button1"
     },
     "ui/card": {
         "scope": "rently-one.tailwind-pocs",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "ui/card"
     },
